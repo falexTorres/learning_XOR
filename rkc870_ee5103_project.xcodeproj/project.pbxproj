@@ -1,0 +1,250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC3D171D1CB9A7F900CE0565 /* NeuralNet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC3D171C1CB9A7F900CE0565 /* NeuralNet.cpp */; settings = {ASSET_TAGS = (); }; };
+		DC3D171F1CB9A96800CE0565 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC3D171E1CB9A96800CE0565 /* Main.cpp */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DC3D170F1CB98AFF00CE0565 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DC3D17111CB98AFF00CE0565 /* rkc870_ee5103_project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = rkc870_ee5103_project; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3D17141CB98AFF00CE0565 /* unOO.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = unOO.cpp; sourceTree = "<group>"; };
+		DC3D171B1CB9A70500CE0565 /* NeuralNet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NeuralNet.h; sourceTree = "<group>"; };
+		DC3D171C1CB9A7F900CE0565 /* NeuralNet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NeuralNet.cpp; sourceTree = "<group>"; };
+		DC3D171E1CB9A96800CE0565 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC3D170E1CB98AFF00CE0565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC3D17081CB98AFF00CE0565 = {
+			isa = PBXGroup;
+			children = (
+				DC3D17131CB98AFF00CE0565 /* rkc870_ee5103_project */,
+				DC3D17121CB98AFF00CE0565 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC3D17121CB98AFF00CE0565 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC3D17111CB98AFF00CE0565 /* rkc870_ee5103_project */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC3D17131CB98AFF00CE0565 /* rkc870_ee5103_project */ = {
+			isa = PBXGroup;
+			children = (
+				DC3D17141CB98AFF00CE0565 /* unOO.cpp */,
+				DC3D171B1CB9A70500CE0565 /* NeuralNet.h */,
+				DC3D171C1CB9A7F900CE0565 /* NeuralNet.cpp */,
+				DC3D171E1CB9A96800CE0565 /* Main.cpp */,
+			);
+			path = rkc870_ee5103_project;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC3D17101CB98AFF00CE0565 /* rkc870_ee5103_project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3D17181CB98AFF00CE0565 /* Build configuration list for PBXNativeTarget "rkc870_ee5103_project" */;
+			buildPhases = (
+				DC3D170D1CB98AFF00CE0565 /* Sources */,
+				DC3D170E1CB98AFF00CE0565 /* Frameworks */,
+				DC3D170F1CB98AFF00CE0565 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rkc870_ee5103_project;
+			productName = rkc870_ee5103_project;
+			productReference = DC3D17111CB98AFF00CE0565 /* rkc870_ee5103_project */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC3D17091CB98AFF00CE0565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "A. Train";
+				TargetAttributes = {
+					DC3D17101CB98AFF00CE0565 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = DC3D170C1CB98AFF00CE0565 /* Build configuration list for PBXProject "rkc870_ee5103_project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC3D17081CB98AFF00CE0565;
+			productRefGroup = DC3D17121CB98AFF00CE0565 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC3D17101CB98AFF00CE0565 /* rkc870_ee5103_project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC3D170D1CB98AFF00CE0565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3D171F1CB9A96800CE0565 /* Main.cpp in Sources */,
+				DC3D171D1CB9A7F900CE0565 /* NeuralNet.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DC3D17161CB98AFF00CE0565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DC3D17171CB98AFF00CE0565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DC3D17191CB98AFF00CE0565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC3D171A1CB98AFF00CE0565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC3D170C1CB98AFF00CE0565 /* Build configuration list for PBXProject "rkc870_ee5103_project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3D17161CB98AFF00CE0565 /* Debug */,
+				DC3D17171CB98AFF00CE0565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC3D17181CB98AFF00CE0565 /* Build configuration list for PBXNativeTarget "rkc870_ee5103_project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3D17191CB98AFF00CE0565 /* Debug */,
+				DC3D171A1CB98AFF00CE0565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC3D17091CB98AFF00CE0565 /* Project object */;
+}
